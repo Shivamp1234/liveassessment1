@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>HTML Assessment</h1>
+    <br>
+    <p>HTML Assessment from PrepBytes</p>
+    <br>
+    <hr>
+    <p>Image used from Absolute path</p>
+    <img src="./logoPrepBytes.svg" alt="prepbytes-logo">
+    <p>Image used from Relative path</p>
+    <img src="https://imgs.search.brave.com/Qz2rHfX6cTg7mXIelMbXOmdkD50HCbgz6cRA2ktP8o0/rs:fit:466:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5x/eHRUMWFabFJ3aFgt/eklvbjdJaDFBQUFB/QSZwaWQ9QXBp" alt="prepbytes-logo"><br>
+    <a href="https://www.prepbytes.com/" target="_blank">Link should be open in another tab</a><br><br>
+    <a href="https://www.prepbytes.com/" target="_self">Link should be open in same tab</a><br><br>
+    <hr>
+    </center>
+    <h2>List</h2>
+    <ul>
+        <li>Mobile Development</li>
+        <li>Web Development
+            <ul type="disc">
+                <li>react</li>
+                <li>angular</li>
+                <li>vue</li>
+            </ul>
+        </li>
+        <li>Cloud Server</li>
+    </ul>
+    <hr>
+    <center>
+    <h2>Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" value="name" placeholder="name"><br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" value="email" placeholder="email"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" value="password" placeholder="password"><br><br>
+        <label for="phone">Phone no.:</label>
+        <input type="tel" name="phone" id="phone" value="phone" maxlength="10"><br><br>
+        <label for="language">Language</label><br><br>
+        <input type="radio" name="language" id="language" value="React">
+        <label for="language">React</label><br>
+        <input type="radio" name="language" id="language" value="Angular">
+        <label for="language">Angular</label><br>
+        <input type="radio" name="language" id="language" value="Vue">
+        <label for="language">Vue</label><br><br>
+        <label for="course">Course</label><br><br>
+        <input type="checkbox" name="course" id="course" value="MERN">
+        <label for="course">MERN</label><br>
+        <input type="checkbox" name="course" id="course" value="MEAN">
+        <label for="course">MEAN</label><br>
+        <input type="checkbox" name="course" id="course" value="MEVN">
+        <label for="course">MEVN</label><br><br>
+        <label for="field">Field</label>
+        <select name="field" id="field">
+            <option value="Front End">Front End</option>
+            <option value="Back End">Back End</option>
+        </select><br><br>
+        <input type="submit"><br><br>
+    </form>
+    <hr>
+    <h2>Table</h2>
+    <table border="2px" width="700px" style="text-align: center;">
+        <tr>
+            <th>Course</th>
+            <th style="background-color: gray;" colspan="2">Contact Detail</th>
+            <th>Date of Joining</th>
+        </tr>
+        <tr>
+            <td>Elevation Academy</td>
+            <td colspan="2">1234567890</td>
+            <td>2 Dec 2022</td>
+        </tr>
+        <tr>
+            <td style="background-color: gray;">Elevation Academy</td>
+            <td rowspan="2">1234567890</td>
+            <td colspan="2">2 Dec 2022</td>
+        </tr>
+        <tr>
+            <td>Elevation Academy</td>
+            <td style="background-color: gray;">2 Dec 2022</td>
+        </tr>
+      </table>
+      <br><br>
+    <hr>
+</center>
+<br><br><br><br><br><br>
+</body>
+</html>
